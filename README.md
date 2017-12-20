@@ -16,7 +16,7 @@ php composer.phar require --prefer-dist rogeecn/yii2-unslider "~1.0.1"
 or add
 
 ```
-"rogeecn/yii2-unslider": "*"
+"rogeecn/yii2-unslider": "~1.0.1"
 ```
 
 to the require section of your `composer.json` file.
