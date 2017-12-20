@@ -31,8 +31,11 @@ Once the extension is installed, simply use it in your code by  :
 <?= \rogeecn\UnSlider\Slider::widget([
     'slides' => [
         [
-            'body' => 'Unslider widget for Yii2', 
+            'body' => 'Unslider widget for Yii2', // body will work when image field is not exist
             'url'  => "#",
+        ],
+        [
+            'body' => $this->render("_body_view"), // you can render html instead
         ],
         [
             'image'   => '/images/cat2.jpg',
